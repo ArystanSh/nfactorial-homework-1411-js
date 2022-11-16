@@ -20,6 +20,8 @@ function delay(ms) {
   
     setTimeout(() => resolve(2), 1000);
   });
+
+  //
   
   promise.then(alert);
 
